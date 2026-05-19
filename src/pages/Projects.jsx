@@ -14,7 +14,7 @@ function Projects() {
       </section>
       <div
         id="works"
-        className="grid grid-cols-1 sm:grid-cols-2 gap-6 px-8 py-12"
+        className="grid grid-cols-1 sm:grid-cols-2 gap-6 px-4 py-12"
       >
         {projects.map((project) => (
           <Link

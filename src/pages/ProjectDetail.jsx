@@ -23,7 +23,7 @@ function ProjectDetail() {
   return (
     <div className="project-page">
 
-      <section className="grid grid-cols-[30%_70%] gap-10 items-start max-md:grid-cols-1">
+      <section className="grid grid-cols-[30%_70%] gap-10 items-start max-md:grid-cols-1 px-6">
         <h2 className="m-0">{project.title}</h2>
 
         <div className="text-left">
