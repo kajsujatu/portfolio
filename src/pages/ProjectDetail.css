@@ -78,7 +78,7 @@
 
   .project-grid {
     grid-template-columns: 1fr;
-    padding: 0 2rem 4rem;
+    padding: 2rem 1rem 0;
   }
 
   .project-image-full {
