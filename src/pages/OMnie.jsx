@@ -13,15 +13,16 @@ export default function AboutPage() {
           </p><p className="text-gray-600 text-lg leading-relaxed mb-6">W swoich projektach stawiam na czytelność, funkcjonalność i estetykę. Potrafię pracować zgodnie z założeniami brandbooka oraz dostosowywać projekty do wymagań i charakteru marki.
           </p>
 
-
+ <p className="text-gray-600 text-lg leading-relaxed mb-6" >
+            Mieszkam w Błoniu, blisko Warszawy.</p>
         </div>
 
-        {/* Right Column */}
-        <div className="grid grid-cols-2 gap-5">
+        
+       {/*  <div className="grid grid-cols-2 gap-5">
           <div className="bg-white p-6 rounded-3xl shadow-sm hover:-translate-y-1 transition-all duration-300">
             <h3 className="text-3xl font-bold text-gray-800 mb-2">12 lat</h3>
             <p className="text-gray-600">
-              doświadczenia w grafice i projektowaniu
+              doświadczenia w projektowaniu graficznym
             </p>
           </div>
 
@@ -40,12 +41,12 @@ export default function AboutPage() {
           </div>
 
           <div className="bg-white p-6 rounded-3xl shadow-sm hover:-translate-y-1 transition-all duration-300">
-            <h3 className="text-3xl font-bold text-gray-800 mb-2">UX/UI</h3>
+            <h3 className="text-3xl font-bold text-gray-800 mb-2">Artysta grafik</h3>
             <p className="text-gray-600">
-              estetyczne i funkcjonalne projekty webowe
+               na kierunku Grafika na Wydziale Sztuk Pięknych UMK w Toruniu
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
