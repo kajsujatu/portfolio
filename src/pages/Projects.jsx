@@ -6,15 +6,15 @@ function Projects() {
 
     <>
 
-      <section id="center">
+      {/*  <section id="center">
         <div className="top-content">
           <h2>Chcesz ze mną współpracować?</h2>
           <a href="mailto:michalmatwijow@gmail.com">Napisz</a> lub  <a href="tel:+48510846440">zadzwoń</a>
         </div>
-      </section>
+      </section> */}
       <div
         id="works"
-        className="grid grid-cols-1 sm:grid-cols-2 gap-6 px-4 py-12"
+        className="grid grid-cols-1 sm:grid-cols-2 gap-6 px-4 pt:20 md:pt-32"
       >
         {projects.map((project) => (
           <Link
