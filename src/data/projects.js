@@ -1,6 +1,31 @@
 const projects = [
+
   {
+
+
     id: 1,
+    slug: "fundacja-sma",
+    title: "Fundacja SMA",
+    images: [
+      "/img/5.png",
+      "/img/bilans-smaka-1.jpg",
+      "/img/bilans-smaka-2.jpg",
+      "/img/bilans-smaka-3-str-6-7.jpg",
+      "/img/bilans-smaka-4-str-16-17.jpg",
+      "/img/bilans-smaka-5-str-26-27.jpg",
+      "/img/bilans-smaka-6-str-36-37.jpg",
+      "/img/bilans-smaka-7-str-56-57.jpg",
+      "/img/bilans-smaka-8-str-60-61.jpg"
+    ],
+    content: {
+      text: `Skład publikacji w formacie A5 dla opiekunów osób chorych na SMA, przygotowanej z inicjatywy Fundacji SMA.
+    `
+    },
+  },
+
+
+  {
+    id: 2,
     slug: "posterx",
     title: "PosterX",
     images: [
@@ -10,25 +35,8 @@ const projects = [
     content: {
       text: "Projekt składanej wizytówki dla właściciela firmy posterX, zajmującej się kolportażem ulotek oraz plakatowaniem na terenie Trójmiasta oraz całej Polski. Wybrane elementy zostały uszlachetnione lakierem UV.",
     }
-  },
-
-  {
-    id: 2,
-    slug: "otwarte-pracownie-na-mazurach",
-    title: "Otwarte pracownie na Mazurach",
-    images: [
-      "/img/2.png",
-      "/img/strona-1.png",
-      "/img/strona-2.png"
-    ],
-    content: {
-      text: "Zaprojektowanie i wykonanie strony internetowej w React. Strona zawiera interaktywną mapę prezentującą 40 pracowni wraz z opisami oraz szczegółowymi informacjami o każdej z nich. ",
-      link: {
-        url: "https://otwartepracownie.com",
-        label: "otwartepracownie.com"
-      }
-    }
-  },
+  }
+  ,
 
   {
     id: 3,
@@ -59,6 +67,24 @@ const projects = [
 
   {
     id: 4,
+    slug: "otwarte-pracownie-na-mazurach",
+    title: "Otwarte pracownie na Mazurach",
+    images: [
+      "/img/2.png",
+      "/img/strona-1.png",
+      "/img/strona-2.png"
+    ],
+    content: {
+      text: "Zaprojektowanie i wykonanie strony internetowej w React. Strona zawiera interaktywną mapę prezentującą 40 pracowni wraz z opisami oraz szczegółowymi informacjami o każdej z nich. ",
+      link: {
+        url: "https://otwartepracownie.com",
+        label: "otwartepracownie.com"
+      }
+    }
+  },
+
+  {
+    id: 5,
     slug: "identyfikacja-festiwal",
     title: "Moliera2",
     images: [
@@ -84,6 +110,9 @@ const projects = [
     `
     },
   }
+
+
+
 ];
 
 export default projects;
