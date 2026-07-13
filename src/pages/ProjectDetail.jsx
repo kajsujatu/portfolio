@@ -27,9 +27,14 @@ function ProjectDetail() {
         <h2 className="m-0">{project.title}</h2>
 
         <div className="text-left">
-          <p className="m-0">
-            {project.content?.text}
 
+
+          <div
+            dangerouslySetInnerHTML={{
+              __html: project.content?.text || "",
+            }}
+          />
+          <p className="m-0">
             {project.content?.link && (
               <p className="mt-2">
                 Link do strony: <a
