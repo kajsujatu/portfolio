@@ -30,7 +30,9 @@ const projects = [
     title: "PosterX",
     images: [
       "/img/1.png",
-      "/img/wizytowka.png"
+      "/img/wizytowka-2.png",
+      "/img/wizytowka-1.png"
+
     ],
     content: {
       text: "<p>Projekt składanej wizytówki dla właściciela firmy posterX, zajmującej się kolportażem ulotek i plakatowaniem na terenie Trójmiasta oraz całej Polski. Celem było stworzenie projektu, który w czytelny sposób będzie nawiązywać do charakteru działalności firmy. Aby wzmocnić efekt i nadać wizytówce zapadającą w pamięć formę, właściciel został przedstawiony jako gwiazda muzyczna promująca wydarzenie. Jego wizerunek umieszczono na stylizowanej ulotce (miniaturowym plakacie), którą umieszczono wewnątrz skrzynki pocztowej.</p> <br><p>Wybrane elementy projektu uszlachetniono lakierem UV.</p>",
@@ -71,11 +73,10 @@ const projects = [
     title: "Otwarte pracownie na Mazurach",
     images: [
       "/img/2.png",
-      "/img/strona-1.png",
-      "/img/strona-2.png"
+      "/img/otwarte-pracownie-strona-26.jpg"
     ],
     content: {
-      text: "Zaprojektowanie i wykonanie strony internetowej w React. Strona zawiera interaktywną mapę prezentującą 40 pracowni wraz z opisami oraz szczegółowymi informacjami o każdej z nich. ",
+      text: "Projekt i realizacja strony internetowej w technologii React z interaktywną mapą prezentującą 52 pracownie artystyczne. Strona zawiera opisy oraz szczegółowe informacje o każdej z pracowni.",
       link: {
         url: "https://otwartepracownie.com",
         label: "otwartepracownie.com"
