@@ -35,7 +35,7 @@ const projects = [
 
     ],
     content: {
-      text: "<p>Projekt składanej wizytówki dla właściciela firmy posterX, zajmującej się kolportażem ulotek i plakatowaniem na terenie Trójmiasta oraz całej Polski. Celem było stworzenie projektu, który w czytelny sposób będzie nawiązywać do charakteru działalności firmy. Aby wzmocnić efekt i nadać wizytówce zapadającą w pamięć formę, właściciel został przedstawiony jako gwiazda muzyczna promująca wydarzenie. Jego wizerunek umieszczono na stylizowanej ulotce (miniaturowym plakacie), którą umieszczono wewnątrz skrzynki pocztowej.</p> <br><p>Wybrane elementy projektu uszlachetniono lakierem UV.</p>",
+      text: "<p>Projekt składanej wizytówki dla właściciela firmy posterX, zajmującej się kolportażem ulotek i plakatowaniem na terenie Trójmiasta oraz całej Polski. Celem było stworzenie projektu, który w czytelny sposób będzie nawiązywać do charakteru działalności firmy. Aby wzmocnić efekt i nadać wizytówce zapadającą w pamięć formę, właściciel został przedstawiony jako gwiazda muzyczna promująca wydarzenie. Jego wizerunek umieściłem na stylizowanej ulotca, znajdującej się w skrzynce pocztowej.</p> <br><p>Wybrane elementy projektu uszlachetniono lakierem UV.</p>",
     }
   }
   ,
