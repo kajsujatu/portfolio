@@ -20,6 +20,13 @@ function ProjectDetail() {
   const nextProject =
     projects[(currentIndex + 1) % projects.length];
 
+
+
+
+
+
+
+
   return (
     <div className="project-page">
 
@@ -50,6 +57,33 @@ function ProjectDetail() {
         </div>
       </section>
 
+      {project.banners?.map((banner, index) => (
+        <div key={`banner-${index}`}>
+          <iframe
+            src={banner.src}
+            title={`HTML5 Banner ${index + 1}`}
+            width={banner.width}
+            height={banner.height}
+            style={{
+              border: 0,
+              width: "100%",
+              maxWidth: `${banner.width}px`,
+              aspectRatio: `${banner.width}/${banner.height}`,
+              display: "block",
+              margin: "5rem auto 1rem"
+            }}
+          />
+
+          {banner.description && (
+            <p className="text-sm opacity-70">
+              {banner.description}
+            </p>
+          )}
+        </div>
+      ))}
+
+
+
       <section className="project-grid">
         {project.images?.slice(1).map((img, index) => {
           const description = project.description?.[index + 1];
@@ -66,6 +100,9 @@ function ProjectDetail() {
                   {description}
                 </p>
               )}
+
+
+
             </div>
           );
         })}

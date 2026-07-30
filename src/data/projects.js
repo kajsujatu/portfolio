@@ -167,8 +167,29 @@ const projects = [
       "/img/e-commerce-13.gif",
       "/img/e-commerce-12.gif"
     ],
+    banners: [
+      {
+        src: "/banners/m2_940x300/index.html",
+        width: 940,
+        height: 300,
+        description: "Projekt baneru HTML5. Kliknij w niego, aby odtworzyć animację ponownie."
+      },
+      {
+        src: "/banners/m2_polo/index.html",
+        width: 240,
+        height: 400,
+        description: "Projekt baneru HTML5. Kliknij w niego, aby odtworzyć animację ponownie."
+      },
+      {
+        src: "/banners/m2_zimmermann/index.html",
+        width: 240,
+        height: 400,
+        description: "Projekt baneru HTML5. Kliknij w niego, aby odtworzyć animację ponownie."
+      }
+    ],
+
     content: {
-      text: `Wybrane projekty banerów do Google Ads, na stronę internetową i do mediów społecznościowych, przygotowane w różnych formatach.
+      text: `Wybrane projekty banerów do Google Ads, na stronę internetową oraz grafik do mediów społecznościowych, przygotowane w różnych formatach.
     `
     }
   }
