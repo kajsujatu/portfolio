@@ -172,6 +172,7 @@ const projects = [
         src: "/banners/m2_940x300/index.html",
         width: 940,
         height: 300,
+        hideOnMobile: true,
         description: "Projekt baneru HTML5. Kliknij w niego, aby odtworzyć animację ponownie."
       },
       {

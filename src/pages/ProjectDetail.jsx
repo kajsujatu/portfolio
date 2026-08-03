@@ -22,9 +22,7 @@ function ProjectDetail() {
 
 
 
-
-
-
+  const isMobile = window.innerWidth <= 940;
 
 
   return (
@@ -57,30 +55,35 @@ function ProjectDetail() {
         </div>
       </section>
 
-      {project.banners?.map((banner, index) => (
-        <div key={`banner-${index}`}>
-          <iframe
-            src={banner.src}
-            title={`HTML5 Banner ${index + 1}`}
-            width={banner.width}
-            height={banner.height}
-            style={{
-              border: 0,
-              width: "100%",
-              maxWidth: `${banner.width}px`,
-              aspectRatio: `${banner.width}/${banner.height}`,
-              display: "block",
-              margin: "5rem auto 1rem"
-            }}
-          />
 
-          {banner.description && (
-            <p className="text-sm opacity-70">
-              {banner.description}
-            </p>
-          )}
-        </div>
-      ))}
+      {project.banners?.map((banner, index) => {
+        if (isMobile && banner.hideOnMobile) return null;
+
+        return (
+          <div key={`banner-${index}`}>
+            <iframe
+              src={banner.src}
+              title={`HTML5 Banner ${index + 1}`}
+              width={banner.width}
+              height={banner.height}
+              style={{
+                border: 0,
+                width: "100%",
+                maxWidth: `${banner.width}px`,
+                aspectRatio: `${banner.width}/${banner.height}`,
+                display: "block",
+                margin: "5rem auto 1rem"
+              }}
+            />
+
+            {banner.description && (
+              <p className="text-sm opacity-70">
+                {banner.description}
+              </p>
+            )}
+          </div>
+        );
+      })}
 
 
 
